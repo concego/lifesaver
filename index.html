@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lifesaver 1.2</title>
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; height: 100vh; margin: 0; padding: 10px; box-sizing: border-box; background: #f4f4f4; }
+        .container { display: flex; flex: 1; gap: 10px; overflow: hidden; }
+        textarea, #preview { flex: 1; padding: 15px; border: 2px solid #ccc; font-size: 18px; overflow-y: auto; background: white; }
+        #preview { border-color: #0078d7; }
+        img { max-width: 100%; }
+        .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+    </style>
+</head>
+<body>
+    <header><h1 class="sr-only">Lifesaver - Editor de Texto</h1></header>
+    <div class="container">
+        <textarea id="campo-texto" placeholder="Comece sua obra aqui... F1 para ajuda."></textarea>
+        <div id="preview" role="region" aria-label="Pré-visualização do conteúdo"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="renderer.js"></script>
+</body>
+</html>
