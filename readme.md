@@ -1,42 +1,39 @@
----
-
-# Lifesaver 🛟 - Editor de Texto Acessível (v1.2)
-
-O **Lifesaver** é um editor de texto minimalista construído em Electron, focado em autonomia e produtividade para escritores e jornalistas cegos. Ele utiliza Markdown para formatação e garante uma experiência livre de distrações e excessos de leitura dos leitores de tela.
-
-## ✨ Funcionalidades Principais
-
-* **Escrita em Markdown**: Edição fluida com visualização formatada em tempo real no painel de preview.
-* **Estatísticas Literárias**: Atalho `Ctrl + Shift + C` para contagem instantânea de palavras, caracteres, linhas e estimativa de páginas (Laudas de 1400 caracteres).
-* **Acessibilidade Nativa**: Interface otimizada para NVDA e TalkBack, focada em evitar a repetição de leitura durante a digitação.
-* **Exportação Profissional**: Salve em `.txt`, `.md` ou gere um **PDF** formatado pronto para uso através do comando de impressão.
-* **Inserção com Assistente**: Comandos para links e imagens que abrem caixas de diálogo para preenchimento de URLs e descrições de acessibilidade.
-
-## ⌨️ Atalhos de Poder
-
-* `F1`: Manual de Ajuda rápido.
-* `Ctrl + S`: Salvar arquivo como `.txt`.
-* `Ctrl + P`: Gerar PDF.
-* `Ctrl + Shift + C`: Ver estatísticas detalhadas do texto.
-* `Ctrl + K`: Inserir Link (abre prompt para URL).
-* `Ctrl + G`: Inserir Imagem (abre prompt para caminho e descrição de acessibilidade).
-
-## 🚀 Como Utilizar
-
-### Para Usuários (Executável)
-
-1. Extraia o conteúdo do arquivo `Lifesaver_v1.2_Estavel.zip`.
-2. Execute o arquivo `lifesaver.exe` dentro da pasta extraída.
-
-### Para Desenvolvedores (Código Fonte)
-
-1. Certifique-se de ter o Node.js instalado.
-2. Na pasta raiz do projeto, execute: `npm install`.
-3. Inicie o ambiente de desenvolvimento com: `npm start`.
-
----
-
-*Desenvolvido por Anderson Carvalho.*
-*Inspirado pelo projeto Euconcegojogar.*
-
----
+Lifesaver v1.2.0
+Um editor de texto minimalista e altamente focado em acessibilidade, criado para facilitar a escrita e edição de arquivos Markdown (.md) para usuários de leitores de tela.
+⚠️ Compatibilidade e Requisitos
+Para garantir a melhor experiência, verifique os requisitos abaixo antes de baixar:
+• 
+Sistema Operacional: Windows 10 ou superior.
+• 
+Leitores de Tela Recomendados: Totalmente otimizado para navegação com NVDA e JAWS.
+• 
+Aviso sobre Mobile: Por ser um software Desktop construído com a tecnologia Electron, o Lifesaver não é compatível com celulares (Android ou iOS). Portanto, não funciona com o leitor de tela TalkBack ou VoiceOver mobile.
+⚙️ Principais Recursos e Atalhos (v1.2.0)
+Esta versão traz ferramentas para facilitar a formatação sem depender do mouse:
+• 
+Inserir Link: Ctrl + K
+• 
+Inserir Imagem: Ctrl + G
+• 
+Estatísticas do Texto: Ctrl + Shift + C (Calcula automaticamente o número de palavras, caracteres e laudas do documento).
+🚀 Como baixar e usar
+O Lifesaver é um aplicativo portátil, ou seja, não exige um processo de instalação complexo no seu Windows.
+1. 
+Acesse a área de Releases na lateral direita desta página.
+2. 
+Baixe o arquivo .zip da versão mais recente (v1.2.0).
+3. 
+Extraia o conteúdo do arquivo .zip em uma pasta no seu computador.
+4. 
+Abra a pasta e execute o arquivo do Lifesaver (com a extensão .exe).
+💻 Tecnologias Utilizadas
+Este projeto faz parte do meu portfólio de desenvolvimento e foi construído utilizando as seguintes tecnologias web adaptadas para Desktop:
+• 
+Electron: Framework para criação do aplicativo de mesa.
+• 
+Node.js: Para gerenciamento do sistema de arquivos (salvar e abrir documentos localmente).
+• 
+HTML, CSS e JavaScript (Vanilla): Estrutura, estilo e lógica de interface.
+📄 Licença e Autoria
+Desenvolvido por Anderson Carvalho.
+Distribuído sob a Licença MIT (livre para uso, modificação e distribuição).
